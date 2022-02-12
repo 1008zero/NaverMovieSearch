@@ -63,7 +63,6 @@ class SearchTableViewCell: UITableViewCell {
             make.left.equalTo(safeArea).offset(5)
             make.bottom.equalTo(safeArea).offset(-5)
             make.width.equalTo(110)
-            make.top.left.bottom.right.equalToSuperview().inset(5)
         }
         
         resultTilteLabel.snp.makeConstraints{ make in
